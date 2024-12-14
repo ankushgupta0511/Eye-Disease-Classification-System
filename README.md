@@ -1,38 +1,52 @@
-## Step 2: Create a Virtual Environment for Django
+Readme.md
+#### Eye-Disease Classification System Project Setup
+`Requirements:`<br>
+- `8 GB RAM`<br>
+- `Code Editor VSCode / Pycharm`<br>
+- `Git CLI`<br>
+- `Docker Desktop`<br>
+- `Web Browser Chrome / Edge`<br>
+- `python 3.12.4`<br>
+  
+#### Clone the Project
 ```
-# Install virtualenv if not already installed
-
-pip install virtualenv
-
-# Create a virtual environment
-virtualenv authenv
-
-# Activate the virtual environment
-# On Windows
-authenv\Scripts\activate
-
-# On macOS/Linux
-source authenv/bin/activate
+git clone git@github.com:ankushgupta0511/Eye-Disease-Classification-System.git
 ```
 
 
-## Step 2: Install Backend Dependencies (Django)
+#### Create virtual environment and install dependencies
+- `Create environment`<br>
 ```
-# Navigate to your Django project directory
-cd djangoAuthapi1
+python -m virtualenv env
+```
 
-# Install all required packages from requirements.txt
+- `Activate environment`<br>
+```
+.\env\Scripts\activate
+```
+
+- `Install Dependencies`<br>
+```
 pip install -r requirements.txt
+```
 
-# Run the Django development server to ensure setup is successful
-python manage.py runserver
+
+##### Setup Environment Variables in `.env` 
+```
+
+# django settings
+DEBUG_MODE = TRUE
+ALLOWED_HOSTS = 'localhost:8000 127.0.0.1:8000 *'
+SECRET_KEY = ''
+
+
+# Email configuration
+EMAIL_HOST_USER = ''
+EMAIL_HOST_PASSWORD = ''
+EMAIL_PORT = 587
 
 ```
 
-## Step 3: Set Up React Frontend
-```
-
-# Start the React development server
-npm start
-
-```
+##### Team Members
+- [Ankush Gupta](https://github.com/ankushgupta0511/)
+- [Chandan Banjara](https://github.com/ChandanBanjara/)
