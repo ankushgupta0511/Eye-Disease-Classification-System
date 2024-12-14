@@ -1,42 +1,38 @@
-# Full Authentication reffer by Geeky shows playlist
-
-
+## Step 2: Create a Virtual Environment for Django
 ```
-// install virtualenv
+# Install virtualenv if not already installed
+
 pip install virtualenv
 
-// create env
+# Create a virtual environment
 virtualenv authenv
+
+# Activate the virtual environment
+# On Windows
+authenv\Scripts\activate
+
+# On macOS/Linux
+source authenv/bin/activate
 ```
 
 
+## Step 2: Install Backend Dependencies (Django)
+```
+# Navigate to your Django project directory
+cd djangoAuthapi1
 
+# Install all required packages from requirements.txt
+pip install -r requirements.txt
 
-# Create React App
+# Run the Django development server to ensure setup is successful
+python manage.py runserver
+
 ```
 
-// 1) this create app an directory and create all file and folder inside directory 
-npx create-react-app app-name
+## Step 3: Set Up React Frontend
+```
 
-or
-
-// 2) from this command   file and folder created this directory of react
-npx create-react-app .
-
-
-
-// then final command
-npm install
+# Start the React development server
 npm start
-
-
-```
-
-
-# install liberary for ML prediction
-```
-pip install scikit-learn
-pip install pandas
-pip install numpy
 
 ```
