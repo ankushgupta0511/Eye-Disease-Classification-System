@@ -8,6 +8,12 @@ Readme.md
 - `Web Browser Chrome / Edge`<br>
 - `python 3.12.4`<br>
   
+### Note :
+```
+ djangoauthapi is a Backend Project
+ medicinerecommendation is a fronted Project
+```
+
 #### Clone the Project
 ```
 git clone git@github.com:ankushgupta0511/Eye-Disease-Classification-System.git
