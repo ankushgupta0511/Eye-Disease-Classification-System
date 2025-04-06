@@ -11,7 +11,7 @@ Readme.md
 ### Note :
 ```
  djangoauthapi is a Backend Project
- medicinerecommendation is a fronted Project
+ medicinerecommendationsystem is a frontend Project
 ```
 
 #### Clone the Project
